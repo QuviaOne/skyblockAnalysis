@@ -1,0 +1,2332 @@
+{
+    "INK_SACK:3": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "BROWN_MUSHROOM": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "INK_SACK:4": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SPOOKY_SHARD": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "TARANTULA_WEB": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "CARROT_ITEM": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_POTATO": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_SLIME_BALL": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_RED_MUSHROOM": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_GOLDEN_CARROT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_RABBIT_HIDE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_BIRCH_LOG": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_GUNPOWDER": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_MELON": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_SUGAR": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "CACTUS": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_BLAZE_ROD": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_CAKE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "PUMPKIN": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_BROWN_MUSHROOM": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "WHEAT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "NURSE_SHARK_TOOTH": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_RAW_SALMON": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_GLISTERING_MELON": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "PRISMARINE_SHARD": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "PROTECTOR_FRAGMENT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_EMERALD": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_SPIDER_EYE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "RED_MUSHROOM": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_MELON_BLOCK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "MUTTON": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "WISE_FRAGMENT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "DIAMOND": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SHARK_FIN": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "COBBLESTONE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "RAW_FISH": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SPIDER_EYE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_PUFFERFISH": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "POTATO_ITEM": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_HUGE_MUSHROOM_1": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_COBBLESTONE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_HUGE_MUSHROOM_2": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "PORK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "PRISMARINE_CRYSTALS": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ICE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "TIGER_SHARK_TOOTH": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "HUGE_MUSHROOM_1": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ICE_BAIT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "HUGE_MUSHROOM_2": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "LOG_2:1": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_SNOW_BLOCK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "GOLDEN_TOOTH": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "STRING": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "HYPER_CATALYST": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "RABBIT_FOOT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "REDSTONE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "PUMPKIN_GUTS": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_CACTUS_GREEN": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "BOOSTER_COOKIE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_CARROT_ON_A_STICK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_LAPIS_LAZULI_BLOCK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_COOKIE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_ENDSTONE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_SAND": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_STRING": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "STRONG_FRAGMENT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SLIME_BALL": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_ACACIA_LOG": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SNOW_BALL": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "HOLY_FRAGMENT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_EGG": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SAND": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SOUL_FRAGMENT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "RAW_CHICKEN": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ANCIENT_CLAW": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_LAPIS_LAZULI": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_GHAST_TEAR": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_COCOA": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "CARROT_BAIT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SEEDS": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_LEATHER": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_SHARK_FIN": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_SPONGE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "HAY_BLOCK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "INK_SACK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "FLINT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_ROTTEN_FLESH": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "WOLF_TOOTH": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_SPRUCE_LOG": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_GRILLED_PORK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_NETHER_STALK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_REDSTONE_BLOCK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_ANCIENT_CLAW": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_QUARTZ_BLOCK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "GREEN_CANDY": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_REDSTONE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_REDSTONE_LAMP": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "GREAT_WHITE_SHARK_TOOTH": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "GRAVEL": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "MELON": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_LAVA_BUCKET": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_PACKED_ICE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "RAW_FISH:3": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_PRISMARINE_SHARD": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "RECOMBOBULATOR_3000": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_IRON_BLOCK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_CARROT_STICK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "BONE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "RAW_FISH:2": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "RAW_FISH:1": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "REVENANT_FLESH": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_PORK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_GLOWSTONE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "FEATHER": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "NETHERRACK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "WHALE_BAIT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SPONGE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "BLAZE_ROD": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_DARK_OAK_LOG": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "YOUNG_FRAGMENT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_CLOWNFISH": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "REFINED_MINERAL": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_GOLD": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_RAW_CHICKEN": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_WATER_LILY": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "LOG:1": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "BLUE_SHARK_TOOTH": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "CATALYST": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "LOG:3": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "LOG:2": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "BLESSED_BAIT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_GLOWSTONE_DUST": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_INK_SACK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_CACTUS": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_SUGAR_CANE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_COOKED_SALMON": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_SEEDS": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "LOG": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_BONE_BLOCK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "JACOBS_TICKET": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "GHAST_TEAR": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_ENDER_PEARL": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "UNSTABLE_FRAGMENT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "PURPLE_CANDY": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SPIKED_BAIT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_FERMENTED_SPIDER_EYE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_GOLD_BLOCK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_JUNGLE_LOG": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_FLINT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "IRON_INGOT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_EMERALD_BLOCK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_CLAY_BALL": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "GLOWSTONE_DUST": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "GOLD_INGOT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "REVENANT_VISCERA": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "TARANTULA_SILK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_MUTTON": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SUPER_COMPACTOR_3000": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_IRON": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SUPER_EGG": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "STOCK_OF_STONKS": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_HAY_BLOCK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_BONE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_PAPER": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_DIAMOND_BLOCK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SPOOKY_BAIT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SUPERIOR_FRAGMENT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "EMERALD": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_RABBIT_FOOT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "LIGHT_BAIT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "HOT_POTATO_BOOK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_ICE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "CLAY_BALL": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "OLD_FRAGMENT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "GREEN_GIFT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "PACKED_ICE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "WATER_LILY": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "HAMSTER_WHEEL": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "LOG_2": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_OBSIDIAN": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_COAL": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "COAL": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_QUARTZ": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_COAL_BLOCK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENDER_PEARL": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "WEREWOLF_SKIN": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_PRISMARINE_CRYSTALS": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "DAEDALUS_STICK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_WET_SPONGE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_RAW_FISH": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENDER_STONE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "QUARTZ": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "FOUL_FLESH": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "RAW_BEEF": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_EYE_OF_ENDER": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ECTOPLASM": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SUGAR_CANE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "MAGMA_CREAM": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SHARK_BAIT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "RED_GIFT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_RAW_BEEF": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_FEATHER": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_SLIME_BLOCK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_OAK_LOG": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "RABBIT_HIDE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "WHITE_GIFT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "NETHER_STALK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SULPHUR": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "RABBIT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "DARK_BAIT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_CARROT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_PUMPKIN": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "GRIFFIN_FEATHER": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ROTTEN_FLESH": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_COOKED_FISH": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "OBSIDIAN": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "MINNOW_BAIT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_MAGMA_CREAM": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_FIREWORK_ROCKET": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "LEATHER": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_COOKED_MUTTON": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_RABBIT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_BREAD": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "FUMING_POTATO_BOOK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_CHARCOAL": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_BLAZE_POWDER": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SUMMONING_EYE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "FISH_BAIT": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "SNOW_BLOCK": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_BAKED_POTATO": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "COMPACTOR": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "ENCHANTED_DIAMOND": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ],
+    "BAZAAR_COOKIE": [
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        },
+        {
+            "id": "PLACEHOLDERID",
+            "amount": 0
+        }
+    ]
+}
