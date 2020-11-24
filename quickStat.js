@@ -46,14 +46,14 @@ async function loop() {
             if (Math.abs(prev[i].time - performance.now()) > TIME_DIFF) {
                 if (prev[i].sell < b.products[item].sell_summary[0].pricePerUnit) ls += ("+" + (b.products[item].sell_summary[0].pricePerUnit - prev[i].sell).toFixed(2)).padEnd(10, " ").green;
                 if (prev[i].sell > b.products[item].sell_summary[0].pricePerUnit) ls += ("-" + (prev[i].sell - b.products[item].sell_summary[0].pricePerUnit).toFixed(2)).padEnd(10, " ").red;
-                if (prev[i].sell == b.products[item].sell_summary[0].pricePerUnit) ls+= " 0".orange;
+                if (prev[i].sell == b.products[item].sell_summary[0].pricePerUnit) ls+= " 0".yellow;
                 break;
             }
         }
         if (ls == "Sell: " + Math.round(prev[prev.length - 1].sell) + " Buy: " + Math.round(prev[prev.length - 1].buy) + "    ") {
             if (prev[1].sell < b.products[item].sell_summary[0].pricePerUnit) ls += ("+" + (b.products[item].sell_summary[0].pricePerUnit - prev[1].sell).toFixed(2)).padEnd(10, " ").green;
             if (prev[1].sell > b.products[item].sell_summary[0].pricePerUnit) ls += ("-" + (prev[1].sell - b.products[item].sell_summary[0].pricePerUnit).toFixed(2)).padEnd(10, " ").red;
-            if (prev[1].sell == b.products[item].sell_summary[0].pricePerUnit) ls+= " 0".orange;
+            if (prev[1].sell == b.products[item].sell_summary[0].pricePerUnit) ls+= " 0".yellow;
         }
         ls += "  |  "
         var done = false;
@@ -61,7 +61,7 @@ async function loop() {
             if (Math.abs(prev[i].time - performance.now()) > TIME_DIFF * 18) {
                 if (prev[i].sell < b.products[item].sell_summary[0].pricePerUnit) ls += ("+" + (b.products[item].sell_summary[0].pricePerUnit - prev[i].sell).toFixed(2)).padEnd(10, " ").green;
                 if (prev[i].sell > b.products[item].sell_summary[0].pricePerUnit) ls += ("-" + (prev[i].sell - b.products[item].sell_summary[0].pricePerUnit).toFixed(2)).padEnd(10, " ").red;
-                if (prev[i].sell == b.products[item].sell_summary[0].pricePerUnit) ls+= " 0".orange;
+                if (prev[i].sell == b.products[item].sell_summary[0].pricePerUnit) ls+= " 0".yellow;
                 done = true;
                 break;
             }
@@ -69,7 +69,7 @@ async function loop() {
         if (!done) {
             if (prev[1].sell < b.products[item].sell_summary[0].pricePerUnit) ls += ("+" + (b.products[item].sell_summary[0].pricePerUnit - prev[1].sell).toFixed(2)).padEnd(10, " ").green;
             if (prev[1].sell > b.products[item].sell_summary[0].pricePerUnit) ls += ("-" + (prev[1].sell - b.products[item].sell_summary[0].pricePerUnit).toFixed(2)).padEnd(10, " ").red;
-            if (prev[1].sell == b.products[item].sell_summary[0].pricePerUnit) ls+= " 0".orange;
+            if (prev[1].sell == b.products[item].sell_summary[0].pricePerUnit) ls+= " 0".yellow;
         }
         console.log(ls);
         setTerminalTitle("Hypixel Skyblock market: " + item + "   |    Buy-Sell difference: " + (prev[prev.length - 1].buy - prev[prev.length - 1].sell).toFixed(3) + "   |    Insta buy amount: " + b.products[item].sell_summary[0].amount + " ~ " + (b.products[item].sell_summary[0].amount * b.products[item].sell_summary[0].pricePerUnit).toPrecision(b.products[item].sell_summary[0].pricePerUnit.toString().length - 2) + "   |   Update No. " + prev.length);
