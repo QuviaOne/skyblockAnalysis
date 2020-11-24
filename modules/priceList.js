@@ -20,7 +20,7 @@ module.exports = class PriceList {
      */
     constructor() {
         this.timestamp = new Date().getTime();
-        this.bazaarItems = [new module.exports.Item("bz", "Coin", 1, 1)];
+        this.bazaarItems = [new module.exports.Item("bz", "Coin", 1, 1, this)];
         this.auctionItems = [];
     }
     /**
@@ -31,7 +31,7 @@ module.exports = class PriceList {
         var bazaarObject = await nim.Hypixel.getBazaar();
         for (var i in bazaarObject.products) {
             try {
-                this.bazaarItems.push(new module.exports.Item("bz", bazaarObject.products[i].product_id, bazaarObject.products[i].sell_summary[0].pricePerUnit, bazaarObject.products[i].buy_summary[0].pricePerUnit, bazaarObject.products[i].quick_status));
+                this.bazaarItems.push(new module.exports.Item("bz", bazaarObject.products[i].product_id, bazaarObject.products[i].sell_summary[0].pricePerUnit, bazaarObject.products[i].buy_summary[0].pricePerUnit, bazaarObject.products[i].quick_status, this));
             } catch (e) {
             }
         }
@@ -83,19 +83,16 @@ module.exports.Item = class Item {
      * @param {Number} buyPrice Price to buy the item
      * @param {Number} sellPrice Price to buy the sell
      * @param {Object<String, String|Number>} quickStat 
+     * @param {PriceList} priceList Price list, that created this item instance.
      */
-    constructor(origin, name, buyPrice, sellPrice, quickStat) {
+    constructor(origin, name, buyPrice, sellPrice, quickStat, priceList) {
         this.origin = origin;
         this.name = name;
         this.buyPrice = buyPrice;
         this.sellPrice = sellPrice;
         this.quickStat = quickStat;
+        this.priceList = priceList;
     }
-    /**
-     * @description Returns the cost of this item, if you would purchase it
-     * @returns {Number}
-     */
-
     /**
      * @description Returns the cost of ingredients to craft the item or purchase the item (whatever is cheaper).
      * @returns {Number}
@@ -103,10 +100,10 @@ module.exports.Item = class Item {
     cost() {
         if (!module.exports.Item.craftableItems.map(item => item.name).includes(this.name)) return this.buyPrice;
         var cost;
-        var items = module.exports.Item.craftableItems.find(e => e.name == this.name).craft.map(e => { item: getItem(e.id), amount: e.amount });
+        var items = module.exports.Item.craftableItems.find(e => e.name == this.name).craft;
         if (item.map(e => e.item).includes(undefined)) return (console.log("Items in recepie not craftable or purchasable."), this.buyPrice);
-        cost = items.reduce((acc, item) => acc + item.item.cost() * item.amount);
-        if (cost > this.buyPrice) return this.buyPrice; else; return cost;
+        cost = items.reduce((acc, item) => acc + this.priceList.getItem(item).cost());
+        if (cost > this.buyPrice) return this.buyPrice; else return cost;
     }
     setPrice(price) {
         this.buyPrice = price + 1;
@@ -114,7 +111,19 @@ module.exports.Item = class Item {
     }
 }
 module.exports.Flip = class Flip {
-
+    /**
+     * 
+     * @param {Stirng} id Id of the item
+     * @param {Number} sellPrice The price, you can sell at
+     * @param {Number} buyPrice The price of the ingredients
+     */
+    constructor (id, sellPrice, buyPrice) {
+        this.id = id;
+        this.sell = sellPrice;
+        this.buy = buyPrice;
+        this.difference = sellPrice - buyPrice;
+        this.profit = this.difference / this.buy;
+    }
 }
 module.exports.Item.craftableItems = require("../items.json");
 /**

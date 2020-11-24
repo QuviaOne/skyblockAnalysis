@@ -1,0 +1,11 @@
+{
+    "IRON_BOOTS": {
+        "name": "IRON_BOOTS",
+        "craft": [
+            "IRON_INGOT:1",
+            "IRON_INGOT:1",
+            "IRON_INGOT:1",
+            "IRON_INGOT:1"
+        ]
+    }
+}
