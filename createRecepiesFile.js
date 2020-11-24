@@ -14,5 +14,5 @@ for (var pth of itemsPath) {
         if (itemObj.recipe[cs]) items[itemObj.internalname].craft.push(itemObj.recipe[cs]);
     }
 }
-console.log(JSON.stringify(items))
+console.log(JSON.stringify(items));
 fs.writeFileSync("./testout.json", JSON.stringify(items, null));
