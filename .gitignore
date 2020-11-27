@@ -104,4 +104,4 @@ dist
 .tern-port
 
 # Package json creation tool
-.addNodeModule.js
+addNodeModule.js
