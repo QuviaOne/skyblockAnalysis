@@ -12,6 +12,7 @@ Scripts that help you analyze the market of Hypixel Skyblock
 >**./bazaarStat.js** script is for *long-term* analysis of bazaar all prices.  
 > - You can run this script using the following command: **node ./bazaarStat.js**
 > - This script is work in progress
+
 >### Discord bot
 >**./discord.js** script that sets up a simple discord bot for you
 > - You can run this script using the following command: **node ./discord.js** [DICSORD_TOKEN_FOR_THE_BOT]
