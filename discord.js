@@ -3,6 +3,7 @@ require('colors');
 const client = new Discord.Client();
 const token = process.argv[2];
 const prefix = process.argv[3];
+var sexNotStopped = true;
 console.log("Loaded with token: " + token.bold, "and prefix: " + prefix.bold);
 const commands = {
     /**
@@ -28,7 +29,17 @@ const commands = {
      * @param {Discord.Message} msg Message object
      */
     alotofsex: async msg => {
-        setInterval(() => {msg.channel.send("sex")}, 2000)
+        sexNotStopped = true;
+        setInterval(() => {if(sexNotStopped) msg.channel.send("sex").catch(err => {
+            console.log("Error: ".red + err);
+        });}, 2000)
+    },
+    /**
+     * 
+     * @param {Discord.Message} msg Message object
+     */
+    stopsex: async msg => {
+        sexNotStopped = false;
     },
     /**
      * 
