@@ -13,6 +13,15 @@ const commands = {
         msg.channel.send("Pong!").catch(err => {
             console.log("Error: ".red + err);
         });
+    },
+    /**
+     * 
+     * @param {Discord.Message} msg Message object
+     */
+    sex: async msg => {
+        msg.channel.send("sex").catch(err => {
+            console.log("Error: ".red + err);
+        });
     }
 }
 
