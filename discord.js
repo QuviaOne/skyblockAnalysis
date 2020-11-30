@@ -22,6 +22,15 @@ const commands = {
         msg.channel.send("sex").catch(err => {
             console.log("Error: ".red + err);
         });
+    },
+    /**
+     * 
+     * @param {Discord.Message} msg Message object
+     */
+    unknown: async msg => {
+        msg.channel.send("I'm sorry, but I don't know that command.").catch(err => {
+            console.log("Error: ".red + err);
+        });
     }
 }
 
@@ -32,7 +41,11 @@ client.on('ready', () => {
 client.on('message', async msg => {
     if (msg.author.bot) return;
     if (msg.content.startsWith(prefix)) {
-        await commands[msg.content.replace(prefix, "").split(" ")[0]](msg)
+        try {
+            await commands[msg.content.replace(prefix, "").split(" ")[0]](msg);
+        } catch (e) {
+            await commands["unknown"](msg);
+        }
         return;
     }
 });
