@@ -30,6 +30,9 @@ const commands = {
      */
     alotofsex: async msg => {
         sexNotStopped = true;
+        msg.channel.send("A lot of sex.").catch(err => {
+            console.log("Error: ".red + err);
+        });
         setInterval(() => {if(sexNotStopped) msg.channel.send("sex").catch(err => {
             console.log("Error: ".red + err);
         });}, 2000)
@@ -40,6 +43,9 @@ const commands = {
      */
     stopsex: async msg => {
         sexNotStopped = false;
+        msg.channel.send("Sex stopped.").catch(err => {
+            console.log("Error: ".red + err);
+        });
     },
     /**
      * 
