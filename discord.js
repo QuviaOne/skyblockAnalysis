@@ -27,6 +27,13 @@ const commands = {
      * 
      * @param {Discord.Message} msg Message object
      */
+    alotofsex: async msg => {
+        setInterval(() => {msg.channel.send("sex")}, 2000)
+    },
+    /**
+     * 
+     * @param {Discord.Message} msg Message object
+     */
     unknown: async msg => {
         msg.channel.send("I'm sorry, but I don't know that command.").catch(err => {
             console.log("Error: ".red + err);
