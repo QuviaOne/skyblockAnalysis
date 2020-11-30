@@ -35,7 +35,7 @@ const commands = {
         });
         setInterval(() => {if(sexNotStopped) msg.channel.send("sex").catch(err => {
             console.log("Error: ".red + err);
-        });}, 500)
+        });}, 1000)
     },
     /**
      * 
