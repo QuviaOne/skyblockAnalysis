@@ -33,6 +33,7 @@ const commands = {
             await bazaarState.load();
             var flips = bazaarState.getTopProfits(10);
             var embed = require('./flipsEmbed.json');
+            embed.embed.fields = [];
             for (var flip of flips) {
                 embed.embed.fields.push({
                     name: flip.id,
@@ -54,6 +55,7 @@ const commands = {
             await bazaarState.load();
             var flips = bazaarState.getTopProfits(10);
             var embed = require('./flipsEmbed.json');
+            embed.embed.fields = [];
             for (var flip of flips) {
                 embed.embed.fields.push({
                     name: flip.id,
