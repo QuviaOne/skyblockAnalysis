@@ -50,23 +50,31 @@ const commands = {
         /**
          * @type {Number} Interval ID
          */
+        var pvr = await msg.channel.send("Update loop set. Interval period: " + period + " s").catch(err => {
+            console.log("Error: ".red + err);
+        });
         bazaarUpdateSendInterval = setInterval(async() => {
+            if (pvr.deleted) {
+                clearInterval(bazaarUpdateSendInterval)
+                msg.channel.send("Update disabled.");
+                return;
+            }
             var bazaarState = new BazaarState();
             await bazaarState.load();
             var flips = bazaarState.getTopProfits(10);
             var embed = require('./flipsEmbed.json');
             embed.embed.fields = [];
+            embed.embed.description = embed.embed.description.split("\n")[0];
+            embed.embed.description += "\n" + new Date(bazaarState.timestamp).toUTCString();
             for (var flip of flips) {
                 embed.embed.fields.push({
                     name: flip.id,
-                    value: `Absolute profit per unit: ${Math.round(flip.price.profit.getAbsolute() * 1000) / 1000}. Relative profit: ${Math.round((flip.price.profit * 100 - 100) * 1000) / 1000} %\nMove worth per week: ${Math.round(flip.quickStatus.buyMovingWeek * flip.price.getBuyPrice())} coins`
+                    value: `Absolute profit per unit: ${Math.round(flip.price.profit.getAbsolute() * 1000) / 1000}. Relative profit: ${Math.round((flip.price.profit * 100 - 100) * 1000) / 1000} %\nMove worth per week: ${Math.round(flip.quickStatus.buyMovingWeek * flip.price.getBuyPrice()/1e4)/100} mil. \nSell price: ${Math.round(flip.price.getSellPrice() * 1000) / 1000}\nBuy price: ${Math.round(flip.price.getBuyPrice() * 1000) / 1000}`
                 })
             }
-            msg.channel.send(embed);
+            pvr.edit(embed);
         }, period * 1000);
-        await msg.channel.send("Update loop set. Interval period: " + period + " s").catch(err => {
-            console.log("Error: ".red + err);
-        });
+        
     },
     /**
      * 
