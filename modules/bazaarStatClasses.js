@@ -168,6 +168,7 @@ module.exports.StabilityIndex = class StabilityIndex extends Number {
         this += 0; // TODO
     }
 }
+
 function newMap(min, max, endMin, endMax) {
     return (n) => endMin + (n - min) / (max - min) * (endMax - endMin) || 0;
 }

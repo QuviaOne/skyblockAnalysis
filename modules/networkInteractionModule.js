@@ -14,7 +14,7 @@ module.exports = {
     Hypixel: {
         /**
          * @description Returns bazaar data
-         * @returns {Object}
+         * @returns {Promise<Object>}
          */
         getBazaar: () => {
             return new Promise((resolve, reject) => {

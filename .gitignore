@@ -105,3 +105,6 @@ dist
 
 # Package json creation tool
 addNodeModule.js
+run.bat
+run.sh
+run.ps1
