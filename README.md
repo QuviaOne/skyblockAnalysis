@@ -23,3 +23,8 @@ Scripts that help you analyze the market of Hypixel Skyblock
 >  #### Commands
 > > #### Bazaar Flips
 > > - Run this command simply by writing [PREFIX_FOR_COMMANDS]bazaarFlip
+> > - Create a message, that will update itself by writing [PREFIX_FOR_COMMANDS]bazaarFlip [UPDATE_INTERVAL_IN_SECONDS]
+> > - Use blacklist for items you don't want to be shown as possible flips using [PREFIX_FOR_COMMANDS]bazaarFlip blacklist
+> >   - Use **blacklist add**[BAZAAR_ID_OF_THE_ITEM] to ad an item to the blacklist 
+> >   - Use **blacklist remove**[BAZAAR_ID_OF_THE_ITEM] to remove an item from the blacklist 
+> >   - Use **blacklist** to write the blacklist 
