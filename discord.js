@@ -1,12 +1,13 @@
 const Discord = require('discord.js');
 require('colors');
+const fs = require('fs');
 const { BazaarState } = require('./modules/classDef');
 
 const client = new Discord.Client();
 const token = process.argv[2];
 const prefix = process.argv[3];
 var bazaarUpdateSendInterval;
-var bazaarFlipBlacklist = [];
+var bazaarFlipBlacklist = require("./blacklist.json") || [];
 console.log("Loaded with token: " + token.bold, "and prefix: " + prefix.bold);
 const commands = {
     /**
@@ -104,6 +105,20 @@ const commands = {
                 });
                 return;
             }
+            if (msg.content.split(" ")[2] == "save") {
+                fs.writeFileSync("./blacklist.json", JSON.stringify(bazaarFlipBlacklist));
+                msg.channel.send("Blacklist saved.").then(m => {
+                    setTimeout(() => {
+                        m.delete().catch(e=> {
+                            console.log("Error deleting message: ".red + e);
+                        });
+                        msg.delete().catch(e=> {
+                            console.log("Error deleting message: ".red + e);
+                        });
+                    }, 2000);
+                });
+                return;
+            }
             var text = "Blacklist: \n"
             text += bazaarFlipBlacklist.join("\n");
             msg.channel.send(text).then(m => {
@@ -123,7 +138,7 @@ const commands = {
         if (msg.content.split(" ")[1] == undefined) {
             var bazaarState = new BazaarState();
             await bazaarState.load();
-            var flips = bazaarState.getTopProfits(10);
+            var flips = bazaarState.getTopProfits(10, blacklist);
             var embed = require('./flipsEmbed.json');
             embed.embed.fields = [];
             for (var flip of flips) {

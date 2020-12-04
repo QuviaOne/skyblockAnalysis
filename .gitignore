@@ -108,3 +108,4 @@ addNodeModule.js
 run.bat
 run.sh
 run.ps1
+blacklist.json
