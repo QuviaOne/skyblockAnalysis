@@ -10,50 +10,8 @@ const commands = {
      * 
      * @param {Discord.Message} msg Message object
      */
-    "sex????": async msg => {
-        msg.channel.send("https://tenor.com/view/shocked-shock-omg-zoom-gif-8379270").catch(err => {
-            console.log("Error: ".red + err);
-        });
-    },
-    /**
-     * 
-     * @param {Discord.Message} msg Message object
-     */
     sex: async msg => {
         msg.channel.send("sex").catch(err => {
-            console.log("Error: ".red + err);
-        });
-    },
-    /**
-    /**
-     * 
-     * @param {Discord.Message} msg Message object
-     */
-    "pinis": async msg => {
-        msg.channel.send("https://media.discordapp.net/attachments/740900197399265392/783052835225862198/hophophop.gif").catch(err => {
-            console.log("Error: ".red + err);
-        });
-    },
-    /**
-     * 
-     * @param {Discord.Message} msg Message object
-     */
-    alotofsex: async msg => {
-        sexNotStopped = true;
-        msg.channel.send("A lot of sex.").catch(err => {
-            console.log("Error: ".red + err);
-        });
-        setInterval(() => {if(sexNotStopped) msg.channel.send("sex").catch(err => {
-            console.log("Error: ".red + err);
-        });}, 1000)
-    },
-    /**
-     * 
-     * @param {Discord.Message} msg Message object
-     */
-    stopsex: async msg => {
-        sexNotStopped = false;
-        msg.channel.send("Sex stopped.").catch(err => {
             console.log("Error: ".red + err);
         });
     },
