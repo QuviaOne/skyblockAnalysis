@@ -6,6 +6,7 @@ const client = new Discord.Client();
 const token = process.argv[2];
 const prefix = process.argv[3];
 var bazaarUpdateSendInterval;
+var bazaarFlipBlacklist = [];
 console.log("Loaded with token: " + token.bold, "and prefix: " + prefix.bold);
 const commands = {
     /**
@@ -28,6 +29,38 @@ const commands = {
             });
             return;
         }
+        if (msg.content.split(" ")[1] == "blacklist") {
+            if (msg.content.split(" ")[2] == "add") {
+                let id = msg.content.split(" ")[3];
+                if (bazaarFlipBlacklist.includes(id)) {
+                    msg.channel.send("This item is already on the blacklist.");
+                } else {
+                    bazaarFlipBlacklist.push(id);
+                    msg.channel.send("Id has been added to the blacklist.");
+                }
+                return;
+            }
+            if (msg.content.split(" ")[2] == "remove") {
+                let id = msg.content.split(" ")[3];
+                for (var i = 0; bazaarFlipBlacklist.length; i++) {
+                    if(bazaarFlipBlacklist[i] == id) {
+                        bazaarFlipBlacklist.splice(i, 1);
+                        break;
+                    }
+                }
+                msg.channel.send("The item is no longer on the blacklist.");
+                return;
+            }
+            if (msg.content.split(" ")[2] == "help") {
+                msg.channel.send("Use *blacklist* to print the blacklist, *blacklist add*[ITEM_ID] to add an item to the blacklist or *blacklist remove*[ITEM_ID] to remove an item from the blacklist.");
+                return;
+            }
+            var text = "Blacklist: \n"
+            text += bazaarFlipBlacklist.join("\n");
+            msg.channel.send(text);
+            return;
+        }
+        
         if (msg.content.split(" ")[1] == undefined) {
             var bazaarState = new BazaarState();
             await bazaarState.load();
@@ -61,7 +94,7 @@ const commands = {
             }
             var bazaarState = new BazaarState();
             await bazaarState.load();
-            var flips = bazaarState.getTopProfits(10);
+            var flips = bazaarState.getTopProfits(10, bazaarFlipBlacklist);
             var embed = require('./flipsEmbed.json');
             embed.embed.fields = [];
             embed.embed.description = embed.embed.description.split("\n")[0];
@@ -84,7 +117,7 @@ const commands = {
         msg.channel.send("I'm sorry, but I don't know that command.").catch(err => {
             console.log("Error: ".red + err);
         });
-    },
+    }
 
 }
 

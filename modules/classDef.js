@@ -30,13 +30,14 @@ module.exports.BazaarState = class BazaarState extends Array {
     /**
      * 
      * @param {Number} amount Amount of best flips
+     * @param {Array<String>} blacklist Items to exclude from the list
      * @returns {Array<BazaarItem>} 
      */
-    getTopProfits(amount) {
+    getTopProfits(amount, blacklist = []) {
         this.calculateProfits();
         this.sort((a, b) => b.price.profit - a.price.profit);
         return this.filter(f => {
-            return f.quickStatus.buyMovingWeek * f.price.getBuyPrice() > 1e6 && f.price.getSellPrice() > 50;
+            return f.quickStatus.buyMovingWeek * f.price.getBuyPrice() > 1e6 && f.price.getSellPrice() > 50 && !blacklist.includes(f.id);
         }).slice(0, amount);
     }
     static async getNew() {
