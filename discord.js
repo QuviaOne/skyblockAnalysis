@@ -69,7 +69,7 @@ const commands = {
             for (var flip of flips) {
                 embed.embed.fields.push({
                     name: flip.id,
-                    value: `Absolute profit per unit: ${Math.round(flip.price.profit.getAbsolute() * 1000) / 1000}. Relative profit: ${Math.round((flip.price.profit * 100 - 100) * 1000) / 1000} %\nMove worth per week: ${Math.round(flip.quickStatus.buyMovingWeek * flip.price.getBuyPrice()/1e4)/100} mil. \nSell price: ${Math.round(flip.price.getSellPrice() * 1000) / 1000}\nBuy price: ${Math.round(flip.price.getBuyPrice() * 1000) / 1000}`
+                    value: `Absolute profit per unit: ${Math.round(flip.price.profit.getAbsolute() * 1000) / 1000}. Relative profit: ${Math.round((flip.price.profit * 100 - 100) * 1000) / 1000} %\nBuying worth per week: ${Math.round(flip.quickStatus.buyMovingWeek * flip.price.getSellPrice()/1e4)/100} mil.\nSelling worth per week: ${Math.round(flip.quickStatus.sellMovingWeek * flip.price.getBuyPrice()/1e4)/100} mil. \nSell price: ${Math.round(flip.price.getSellPrice() * 1000) / 1000}\nBuy price: ${Math.round(flip.price.getBuyPrice() * 1000) / 1000}`
                 })
             }
             pvr.edit(embed);
