@@ -27,4 +27,5 @@ Scripts that help you analyze the market of Hypixel Skyblock
 > > - Use blacklist for items you don't want to be shown as possible flips using [PREFIX_FOR_COMMANDS]bazaarFlip blacklist
 > >   - Use **blacklist add**[BAZAAR_ID_OF_THE_ITEM] to ad an item to the blacklist 
 > >   - Use **blacklist remove**[BAZAAR_ID_OF_THE_ITEM] to remove an item from the blacklist 
-> >   - Use **blacklist** to write the blacklist 
+> >   - Use **blacklist** to print the blacklist 
+> >   - Use **blacklist save** to save the blacklist as a default in a server file 
