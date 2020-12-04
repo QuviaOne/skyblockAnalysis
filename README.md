@@ -20,3 +20,6 @@ Scripts that help you analyze the market of Hypixel Skyblock
 > - You can run this script using the following command:  
 **node ./discord.js** [DICSORD_TOKEN_FOR_THE_BOT] [PREFIX_FOR_COMMANDS]
 > - This script is work in progress
+>  #### Commands
+> > #### Bazaar Flips
+> > - Run this command simply by writing [PREFIX_FOR_COMMANDS]bazaarFlip
