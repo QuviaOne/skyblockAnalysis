@@ -24,7 +24,17 @@ const commands = {
      */
     bazaarFlip: async msg => {
         if (msg.content.split(" ")[1] == "help") {
-            await msg.channel.send("Use **[prefix]bazaarFlip [update_loop_interval_in_seconds]**").catch(err => {
+            await msg.channel.send("Use **[prefix]bazaarFlip [update_loop_interval_in_seconds]**").then(m => {
+                setTimeout(() => {
+                    m.delete().catch(e=> {
+                        console.log("Error deleting message: ".red + e);
+                    });
+                    msg.delete().catch(e=> {
+                        console.log("Error deleting message: ".red + e);
+                    });
+                }, 2000);
+
+            }).catch(err => {
                 console.log("Error: ".red + err);
             });
             return;
@@ -33,10 +43,30 @@ const commands = {
             if (msg.content.split(" ")[2] == "add") {
                 let id = msg.content.split(" ")[3];
                 if (bazaarFlipBlacklist.includes(id)) {
-                    msg.channel.send("This item is already on the blacklist.");
+                    msg.channel.send("This item is already on the blacklist.").then(m => {
+                        setTimeout(() => {
+                            m.delete().catch(e=> {
+                                console.log("Error deleting message: ".red + e);
+                            });
+                            msg.delete().catch(e=> {
+                                console.log("Error deleting message: ".red + e);
+                            });
+                        }, 2000);
+
+                    });
                 } else {
                     bazaarFlipBlacklist.push(id);
-                    msg.channel.send("Id has been added to the blacklist.");
+                    msg.channel.send("Id has been added to the blacklist.").then(m => {
+                        setTimeout(() => {
+                            m.delete().catch(e=> {
+                                console.log("Error deleting message: ".red + e);
+                            });
+                            msg.delete().catch(e=> {
+                                console.log("Error deleting message: ".red + e);
+                            });
+                        }, 2000);
+
+                    });
                 }
                 return;
             }
@@ -48,16 +78,45 @@ const commands = {
                         break;
                     }
                 }
-                msg.channel.send("The item is no longer on the blacklist.");
+                msg.channel.send("The item is no longer on the blacklist.").then(m => {
+                    setTimeout(() => {
+                        m.delete().catch(e=> {
+                            console.log("Error deleting message: ".red + e);
+                        });
+                        msg.delete().catch(e=> {
+                            console.log("Error deleting message: ".red + e);
+                        });
+                    }, 2000);
+
+                });
                 return;
             }
             if (msg.content.split(" ")[2] == "help") {
-                msg.channel.send("Use *blacklist* to print the blacklist, *blacklist add*[ITEM_ID] to add an item to the blacklist or *blacklist remove*[ITEM_ID] to remove an item from the blacklist.");
+                msg.channel.send("Use *blacklist* to print the blacklist, *blacklist add*[ITEM_ID] to add an item to the blacklist or *blacklist remove*[ITEM_ID] to remove an item from the blacklist.").then(m => {
+                    setTimeout(() => {
+                        m.delete().catch(e=> {
+                            console.log("Error deleting message: ".red + e);
+                        });
+                        msg.delete().catch(e=> {
+                            console.log("Error deleting message: ".red + e);
+                        });
+                    }, 2000);
+                });
                 return;
             }
             var text = "Blacklist: \n"
             text += bazaarFlipBlacklist.join("\n");
-            msg.channel.send(text);
+            msg.channel.send(text).then(m => {
+                setTimeout(() => {
+                    m.delete().catch(e=> {
+                        console.log("Error deleting message: ".red + e);
+                    });
+                    msg.delete().catch(e=> {
+                        console.log("Error deleting message: ".red + e);
+                    });
+                }, 2000);
+
+            });
             return;
         }
         
