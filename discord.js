@@ -36,7 +36,7 @@ const commands = {
             for (var flip of flips) {
                 embed.embed.fields.push({
                     name: flip.id,
-                    value: `Absolute profit per unit: ${Math.round(flip.price.profit.getAbsolute() * 1000) / 1000}. Relative profit: ${Math.round((flip.price.profit * 100 - 100) * 10000) / 10000} %`
+                    value: `Absolute profit per unit: ${Math.round(flip.price.profit.getAbsolute() * 1000) / 1000}. Relative profit: ${Math.round((flip.price.profit * 100 - 100) * 10000) / 10000} %\nMove worth per week: ${Math.round(flip.quickStatus.buyMovingWeek * flip.price.getBuyPrice())} coins\nSell price: ${Math.round(flip.price.getSellPrice() * 1000) / 1000}\nBuy price: ${Math.round(flip.price.getBuyPrice() * 1000) / 1000}`,
                 })
             }
             await msg.channel.send(embed);
@@ -57,7 +57,7 @@ const commands = {
             for (var flip of flips) {
                 embed.embed.fields.push({
                     name: flip.id,
-                    value: `Absolute profit per unit: ${Math.round(flip.price.profit.getAbsolute() * 1000) / 1000}. Relative profit: ${Math.round((flip.price.profit * 100 - 100) * 1000) / 1000} %`
+                    value: `Absolute profit per unit: ${Math.round(flip.price.profit.getAbsolute() * 1000) / 1000}. Relative profit: ${Math.round((flip.price.profit * 100 - 100) * 1000) / 1000} %\nMove worth per week: ${Math.round(flip.quickStatus.buyMovingWeek * flip.price.getBuyPrice())} coins`
                 })
             }
             msg.channel.send(embed);

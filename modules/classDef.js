@@ -35,7 +35,9 @@ module.exports.BazaarState = class BazaarState extends Array {
     getTopProfits(amount) {
         this.calculateProfits();
         this.sort((a, b) => b.price.profit - a.price.profit);
-        return this.slice(0, amount);
+        return this.filter(f => {
+            return f.quickStatus.buyMovingWeek * f.price.getBuyPrice() > 1e6 && f.price.getSellPrice() > 50;
+        }).slice(0, amount);
     }
     static async getNew() {
         var n = new this();
@@ -60,6 +62,10 @@ module.exports.BazaarItem = class BazaarItem extends module.exports.Item {
      */
     constructor(id) {
         super(id);
+        /**
+         * @type {QuickStatus}
+         */
+        this.quickStatus = {};
     }
     /**
      * 
@@ -67,6 +73,7 @@ module.exports.BazaarItem = class BazaarItem extends module.exports.Item {
      */
     loadPrice(productObject) {
         this.price = module.exports.Price.from(new ProductObject(productObject));
+        this.quickStatus = new ProductObject(productObject).quick_status;
     }
     calculateProfit() {
         this.price.calculateProfit();
