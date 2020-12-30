@@ -206,7 +206,6 @@ client.on('message', async msg => {
             await commands[msg.content.replace(prefix, "").split(" ")[0]](msg);
         } catch (e) {
             await commands["unknown"](msg);
-            console.log(e);
         }
         return;
     }
